@@ -43,3 +43,10 @@ const styles = {
     mt: '2px',
   },
 };
+
+
+/*
+
+npm i css-loader dotenv file-loader framer-motion globby isomorphic-unfetch next-compose-plugins next-optimized-images prettier rc-drawer react-custom-scrollbars react-ga react-icons react-modal-video react-multi-carousel react-scroll react-stickynode style-loader theme-ui typeface-dm-sans url-loader
+
+ */
