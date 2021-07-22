@@ -25,7 +25,7 @@ export default function Footer() {
             </nav>
           </Box>
           <Text sx={styles.footer.copyright }>
-            Copyright by {new Date().getFullYear()} Rich Info Tech
+            Copyright by {new Date().getFullYear()} Book App
           </Text>
         </Box>
       </Container>

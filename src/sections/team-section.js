@@ -42,7 +42,7 @@ const data = [
   },
   {
     id: 2,
-    imgSrc: Member2,
+    imgSrc: Member6,
     altText: 'Aaron Nunez',
     title: 'Aaron Nunez',
     designation: 'Founder',

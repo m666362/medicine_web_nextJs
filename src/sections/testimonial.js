@@ -16,7 +16,7 @@ const data = [
     title: 'Modern look & trending design',
     description:
       'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
-    avatar: Avatar1,
+    avatar: Avatar4,
     name: 'Denny Hilguston',
     designation: '@denny.hil',
     review: 4,

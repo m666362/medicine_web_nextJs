@@ -11,10 +11,10 @@ export default function Banner() {
       <Container sx={styles.banner.container}>
         <Box sx={styles.banner.contentBox}>
           <Heading as="h1" variant="heroPrimary">
-            Top Medicine to export
+            Hey Book lover
           </Heading>
           <Text as="p" variant="heroSecondary" >
-            Checkout our website to find various medicine
+            Connect with us to get thousands of book
           </Text>
           <Button variant="primary">Explore</Button>
         </Box>

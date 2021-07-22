@@ -2,8 +2,9 @@
 import { jsx, Container, Box, Image } from 'theme-ui';
 import TextFeature from 'components/text-feature';
 
-import FeatureThumb from 'assets/core-feature.png';
+import book1 from 'assets/book/book1.jpg';
 import shapePattern from 'assets/shape-pattern2.png';
+import BannerImg from "../assets/banner-thumb.png";
 
 const data = {
   subTitle: 'Core features',
@@ -28,7 +29,7 @@ export default function CoreFeature() {
         />
       </Box>
       <Box sx={styles.thumbnail}>
-        <Image src={FeatureThumb} alt="Thumbnail" />
+        <Image src={book1} alt="Thumbnail" />
         <Box sx={styles.shapeBox}>
           <Image src={shapePattern} alt="Shape"/>
         </Box>

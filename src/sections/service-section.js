@@ -6,11 +6,12 @@ import TextFeature from 'components/text-feature';
 import ModalVideo from 'react-modal-video';
 import { IoIosPlay } from 'react-icons/io';
 
-import ServiceThumb from 'assets/service-thumb.png';
+import book2 from 'assets/book/book2.jpg';
 import shapePattern from 'assets/shape-pattern1.png';
 
 import Smart from 'assets/services/smart.svg';
 import Secure from 'assets/services/secure.svg';
+import BannerImg from "../assets/banner-thumb.png";
 
 const data = {
   subTitle: 'our services',
@@ -45,7 +46,7 @@ export default function ServiceSection() {
     <section sx={{variant: 'section.services'}}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          <Image src={ServiceThumb} alt="thumbnail"/>
+          <Image src={book2} alt="thumbnail"/>
           <Button sx={styles.videoBtn} onClick={handleClick} aria-label="Play Button">
             <span>
               <IoIosPlay/>
